@@ -1,0 +1,23 @@
+{
+  "name": "rust-functions-example",
+  "version": "1.0.0",
+  "description": "This example shows how to deploy Rust code on Netlify Functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HynekS/netlify-lambda-rust.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HynekS/netlify-lambda-rust/issues"
+  },
+  "homepage": "https://github.com/HynekS/netlify-lambda-rust#readme",
+  "dependencies": {
+    "netlify-cli": "^3.29.17"
+  }
+}
