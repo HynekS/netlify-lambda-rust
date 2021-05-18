@@ -28,7 +28,7 @@ async fn hello(
     request: Request,
     _: Context
 ) -> Result<impl IntoResponse, Error> {
-    let b = request.body();
+    let b = request.headers();
     let uri = request.uri().path().split("/").collect::<Vec<&str>>();
     Ok(json!({ "request": b, "uriSegments": uri }))
 }
